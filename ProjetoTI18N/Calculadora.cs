@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -60,5 +61,16 @@ namespace ProjetoTI18N
             return ConsultarNum1 / ConsultarNum2;
             {
         }
+
+
+            public double Potencia()
+                {
+                    return Math.Pow(ConsultarNum1, ConsultarNum2);
+                }//Fim potencia
+
+            public double Raiz()
+                {
+                    return Math.Sqrt(ConsultarNum1);
+                }//Fim raiz
     }//Fim da classe
 }//Fim do projeto
